@@ -24,6 +24,7 @@ export default function Profile(props) {
           <br />
           And I am studying Web/UI/UX design at Digital Hollywood.
           <br />
+          <br />
           Please contact me via{" "}
           <a
             href="https://twitter.com/messages/compose?recipient_id=1011613706449375232"
