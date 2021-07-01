@@ -1,0 +1,17 @@
+@import url(../css/normalize.css);
+@import url(../css/base.css);
+
+.layout {
+  max-width: 960px;
+  min-height: 100vh;
+
+  margin: 0 auto;
+  padding: 48px;
+  box-sizing: border-box;
+
+  /* flexbox */
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
