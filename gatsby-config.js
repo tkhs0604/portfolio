@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "portfolio",
+    title: "kenken's site",
+    siteUrl: "https://kenken-portfolio.web.app",
   },
   plugins: [
     "gatsby-plugin-image",
@@ -15,6 +16,6 @@ module.exports = {
       },
       __key: "images",
     },
-    "gatsby-plugin-material-ui"
+    "gatsby-plugin-react-helmet",
   ],
 };
