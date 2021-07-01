@@ -13,7 +13,7 @@ export default function Profile(props) {
           image={props.thumbnail}
           imageWidth="160"
           imageHeight="160"
-          roundedSize="16"
+          roundedSize="8"
           roundedColor="#DDD"
         />
       </div>
