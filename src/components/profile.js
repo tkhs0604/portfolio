@@ -1,6 +1,6 @@
 import React from "react";
 
-import CircularIcon from "./circular_icon";
+import CircularIcon from "./atoms/circular_icon";
 
 import * as styles from "./profile.module.css";
 

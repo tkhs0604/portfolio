@@ -1,6 +1,6 @@
 import React from "react";
 
-import ClickableCircularIcon from "./clickable_circular_icon";
+import ClickableCircularIcon from "./atoms/clickable_circular_icon";
 
 import * as styles from "./icons.module.css";
 
