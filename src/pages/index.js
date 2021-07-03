@@ -12,7 +12,7 @@ export default function Index() {
   return (
     <Layout>
       <Meta />
-      <Profile thumbnail={Thumbnail} />
+      <Profile thumbnail={Thumbnail} size={160} />
       <Icons links={Links} />
     </Layout>
   );

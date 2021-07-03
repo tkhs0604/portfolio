@@ -8,7 +8,7 @@ export default function Icons(props) {
   const links = props.links;
   const listItems = links.map((link) => (
     <li key={link.name}>
-      <Icon link={link} />
+      <Icon link={link} size="48" />
     </li>
   ));
 

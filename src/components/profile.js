@@ -11,8 +11,8 @@ export default function Profile(props) {
         <ReactRoundedImage
           className={styles.thumbnail}
           image={props.thumbnail}
-          imageWidth="160"
-          imageHeight="160"
+          imageWidth={props.size}
+          imageHeight={props.size}
           roundedSize="8"
           roundedColor="#DDD"
         />

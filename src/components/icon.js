@@ -7,8 +7,8 @@ export default function Icon(props) {
     <a href={props.link.url} target="_blank">
       <ReactRoundedImage
         image={props.link.iconPath}
-        imageWidth="48"
-        imageHeight="48"
+        imageWidth={props.size}
+        imageHeight={props.size}
         roundedSize="0"
         roundedColor="transparent"
       />
