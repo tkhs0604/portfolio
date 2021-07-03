@@ -1,7 +1,8 @@
 import React from "react";
 
-import Layout from "../components/layout";
-import Meta from "../components/meta";
+import Layout from "../components/common/layout";
+import Meta from "../components/common/meta";
+
 import Profile from "../components/profile";
 import Icons from "../components/icons";
 
