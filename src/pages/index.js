@@ -7,14 +7,15 @@ import Profile from "../components/profile";
 import Icons from "../components/icons";
 
 import Thumbnail from "../images/thumbnail.jpg";
-import Links from "../links";
+
+import Accounts from "../constants/accounts";
 
 export default function Index() {
   return (
     <Layout>
       <Meta />
       <Profile thumbnail={Thumbnail} size={160} />
-      <Icons links={Links} />
+      <Icons links={Accounts} />
     </Layout>
   );
 }
