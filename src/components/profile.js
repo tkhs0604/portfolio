@@ -1,6 +1,6 @@
 import React from "react";
 
-import ReactRoundedImage from "react-rounded-image";
+import CircularIcon from "./circular_icon";
 
 import * as styles from "./profile.module.css";
 
@@ -8,12 +8,11 @@ export default function Profile(props) {
   return (
     <section className={styles.profile}>
       <div className={styles.thumbnail}>
-        <ReactRoundedImage
+        <CircularIcon
           image={props.thumbnail}
-          imageWidth={props.size}
-          imageHeight={props.size}
-          roundedSize="8"
-          roundedColor="#DDD"
+          imageSize={props.size}
+          roundedSize={8}
+          roundedColor={"#DDD"}
         />
       </div>
       <div>
