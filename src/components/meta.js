@@ -4,7 +4,6 @@ import { Helmet } from "react-helmet";
 import { graphql, useStaticQuery } from "gatsby";
 
 export default function Meta() {
-  console.log("called");
   const { site } = useStaticQuery(query);
   return (
     <Helmet>

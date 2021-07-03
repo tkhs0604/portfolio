@@ -9,7 +9,6 @@ export default function Profile(props) {
     <section className={styles.profile}>
       <div className={styles.thumbnail}>
         <ReactRoundedImage
-          className={styles.thumbnail}
           image={props.thumbnail}
           imageWidth={props.size}
           imageHeight={props.size}
