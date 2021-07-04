@@ -8,7 +8,7 @@ import * as styles from "./profile.module.css";
 export default function Profile(props) {
   return (
     <section className={styles.profile}>
-      <div className={styles.thumbnail}>
+      <div>
         <CircularIcon
           image={props.thumbnail}
           imageSize={props.size}
