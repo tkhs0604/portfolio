@@ -8,9 +8,9 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 16px;
 }
 
 li {
-  margin: 8px;
   padding: 0;
 }
