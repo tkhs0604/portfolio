@@ -10,6 +10,7 @@ export default function Icons(props) {
     <li key={link.name}>
       <ClickableCircularIcon
         href={link.url}
+        ariaLabel={link.name}
         image={link.image}
         imageSize={48}
         roundedSize={0}

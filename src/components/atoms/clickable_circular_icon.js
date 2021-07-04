@@ -3,9 +3,9 @@ import React from "react";
 import CircularIcon from "./circular_icon";
 
 export default function ClickableCircularIcon(props) {
-  const { href, image, imageSize, roundedSize, roundedColor } = props;
+  const { href, ariaLabel, image, imageSize, roundedSize, roundedColor } = props;
   return (
-    <a href={href} target="_blank">
+    <a href={href} aria-label={ariaLabel} target="_blank" rel="noreferrer">
       <CircularIcon
         image={image}
         imageSize={imageSize}

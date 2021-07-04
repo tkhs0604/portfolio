@@ -27,6 +27,7 @@ export default function Profile(props) {
           <a
             href="https://twitter.com/messages/compose?recipient_id=1011613706449375232"
             target="_blank"
+            rel="noreferrer"
           >
             Twitter DM
           </a>{" "}
