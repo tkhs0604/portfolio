@@ -5,7 +5,8 @@ import ClickableCircularIcon from "./atoms/clickable_circular_icon";
 import * as styles from "./icons.module.css";
 
 export default function Icons(props) {
-  const listItems = props.links.map((link) => (
+  const { links } = props;
+  const lists = links.map((link) => (
     <li key={link.name}>
       <ClickableCircularIcon
         href={link.url}
@@ -19,7 +20,7 @@ export default function Icons(props) {
 
   return (
     <section className={styles.icons}>
-      <ul>{listItems}</ul>
+      <ul>{lists}</ul>
     </section>
   );
 }
