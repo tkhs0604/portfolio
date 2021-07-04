@@ -20,7 +20,7 @@ export default function Profile(props) {
         <p className={styles.description}>
           I am kenken, an Android engineer working at Merpay Inc.
           <br />
-          And I am studying Web/UI/UX design at Digital Hollywood.
+          And I am studying Web/UI/UX design at Digital Hollywood school.
           <br />
           <br />
           Please contact me via{" "}
