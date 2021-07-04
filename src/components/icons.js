@@ -19,8 +19,8 @@ export default function Icons(props) {
   ));
 
   return (
-    <section className={styles.icons}>
-      <ul>{lists}</ul>
+    <section>
+      <ul className={styles.icons}>{lists}</ul>
     </section>
   );
 }
