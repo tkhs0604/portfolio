@@ -5,6 +5,7 @@ import Meta from "../components/common/meta";
 
 import Profile from "../components/profile";
 import Icons from "../components/icons";
+import Spacer from "../components/atoms/spacer";
 
 import Thumbnail from "../images/thumbnail.jpg";
 
@@ -15,7 +16,9 @@ export default function Index() {
     <Layout>
       <Meta />
       <Profile thumbnail={Thumbnail} size={160} />
+      <Spacer height={40} />
       <Icons links={Accounts} />
+      <Spacer height={40} />
     </Layout>
   );
 }
