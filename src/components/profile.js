@@ -1,6 +1,6 @@
 import React from "react";
 
-import Spacer from "./atoms/spacer"
+import Spacer from "./atoms/spacer";
 import CircularIcon from "./atoms/circular_icon";
 
 import * as styles from "./profile.module.css";
@@ -20,9 +20,10 @@ export default function Profile(props) {
         <h1 className={styles.name}>kenken🐶</h1>
         <Spacer height={20} />
         <p className={styles.description}>
-          I am kenken, an Android engineer working at Merpay Inc.
+          I am kenken, an Android engineer currently working at Merpay Inc.
           <br />
-          And I am studying Web/UI/UX design at Digital Hollywood school.
+          And I am studying graphic, web, UI and UX design at Digital Hollywood
+          school.
           <br />
           <br />
           Please contact me via{" "}
