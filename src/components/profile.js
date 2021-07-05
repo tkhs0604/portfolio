@@ -7,8 +7,8 @@ import * as styles from "./profile.module.css";
 
 export default function Profile(props) {
   return (
-    <section className={styles.profile}>
-      <div>
+    <section>
+      <div className={styles.thumbnail}>
         <CircularIcon
           image={props.thumbnail}
           imageSize={props.size}
@@ -16,27 +16,26 @@ export default function Profile(props) {
           roundedColor={"#DDD"}
         />
       </div>
-      <div>
-        <h1 className={styles.name}>kenken🐶</h1>
-        <Spacer height={20} />
-        <p className={styles.description}>
-          I am kenken, an Android engineer currently working at Merpay Inc.
-          <br />
-          And I am studying graphic, web, UI and UX design at Digital Hollywood
-          school.
-          <br />
-          <br />
-          Please contact me via{" "}
-          <a
-            href="https://twitter.com/messages/compose?recipient_id=1011613706449375232"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Twitter DM
-          </a>{" "}
-          if there is anything you need.
-        </p>
-      </div>
+      <Spacer height={40} />
+      <h1 className={styles.name}>kenken🐶</h1>
+      <Spacer height={20} />
+      <p className={styles.description}>
+        I am kenken, an Android engineer currently working at Merpay Inc.
+        <br />
+        And I am studying graphic, web, UI and UX design at Digital Hollywood
+        school.
+        <br />
+        <br />
+        Please contact me via{" "}
+        <a
+          href="https://twitter.com/messages/compose?recipient_id=1011613706449375232"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Twitter DM
+        </a>{" "}
+        if there is anything you need.
+      </p>
     </section>
   );
 }
