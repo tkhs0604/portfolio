@@ -8,13 +8,30 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: checkout
         uses: actions/checkout@v2
-      - name: deploy
+      - name: install dependencies
+        run: npm install
+      - name: build
+        run: npm run build-prod
+      - name: upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          path: public
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: download artifact
+        uses: actions/download-artifact@v2
+        with:
+          path: public
+      - name: deploy to firebase hosting
         uses: w9jds/firebase-action@master
         with:
-          args: deploy
+          args: deploy --only hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
