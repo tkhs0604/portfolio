@@ -20,9 +20,9 @@ export default function Profile(props) {
       <h1 className={styles.name}>kenken🐶</h1>
       <Spacer height={20} />
       <p className={styles.description}>
-        I am kenken, an Android engineer currently working at Merpay Inc.
+        I am kenken, an Android app engineer currently working at Merpay, Inc.
         <br />
-        And I am studying graphic, web, UI and UX design at Digital Hollywood
+        And I major in graphic, web, UI and UX design at Digital Hollywood
         school.
         <br />
         <br />
