@@ -32,7 +32,7 @@ export default function Profile(props) {
           target="_blank"
           rel="noreferrer"
         >
-          Twitter DM
+          Twitter Direct Message
         </a>{" "}
         if there is anything you need.
       </p>
